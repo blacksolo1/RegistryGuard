@@ -10,10 +10,51 @@ RegistryGuard Pro is a professional OCI/Docker Registry auditing tool designed t
 - **Structured Reporting**: Exports all findings to a professional JSON report.
 
 ## Installation
-```bash
+
+🛠️ Installation & Setup Guide
+
+This guide will walk you through setting up RegistryGuard Pro on your local machine or a VPS.
+1. Prerequisites
+
+Ensure you have Python 3.8 or higher installed on your system.
+
+    Linux/macOS: Python is usually pre-installed. Check with python3 --version.
+
+    Windows: Download the latest version from python.org.
+
+2. Clone the Repository
+
+Open your terminal or command prompt and run the following command to download the tool:
+Bash
+
+git clone https://github.com/blacksolo/RegistryGuard.git
+cd RegistryGuard
+
+3. Create a Virtual Environment (Recommended)
+
+Using a virtual environment keeps your global Python installation clean and prevents library conflicts.
+Bash
+
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Linux/macOS
+python3 -m venv venv
+source venv/bin/activate
+
+4. Install Dependencies
+
+Install the required libraries using the provided requirements.txt file:
+Bash
+
 pip install -r requirements.txt
 
-Usage
+🚀 Running Your First Audit
+
+Once installed, you can start auditing Docker registries immediately.
+Basic Scan
+Bash
 
 python3 registry_guard.py -d registry.example.com
 
