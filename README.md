@@ -25,15 +25,15 @@ Ensure you have Python 3.8 or higher installed on your system.
 2. Clone the Repository
 
 Open your terminal or command prompt and run the following command to download the tool:
-Bash
 
-git clone https://github.com/blacksolo/RegistryGuard.git
+
+ggit clone https://github.com/blacksolo/RegistryGuard.git
 cd RegistryGuard
 
 3. Create a Virtual Environment (Recommended)
 
 Using a virtual environment keeps your global Python installation clean and prevents library conflicts.
-Bash
+
 
 # Windows
 python -m venv venv
