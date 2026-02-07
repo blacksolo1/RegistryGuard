@@ -27,28 +27,28 @@ Ensure you have Python 3.8 or higher installed on your system.
 Open your terminal or command prompt and run the following command to download the tool:
 
 
-ggit clone https://github.com/blacksolo/RegistryGuard.git
-cd RegistryGuard
+     git clone https://github.com/blacksolo/RegistryGuard.git
+     cd RegistryGuard
 
 3. Create a Virtual Environment (Recommended)
 
 Using a virtual environment keeps your global Python installation clean and prevents library conflicts.
 
 
-# Windows
-python -m venv venv
-venv\Scripts\activate
+     # Windows
+     python -m venv venv
+     venv\Scripts\activate
 
-# Linux/macOS
-python3 -m venv venv
-source venv/bin/activate
+    # Linux/macOS
+    python3 -m venv venv
+    source venv/bin/activate
 
 4. Install Dependencies
 
 Install the required libraries using the provided requirements.txt file:
 Bash
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 🚀 Running Your First Audit
 
@@ -56,7 +56,7 @@ Once installed, you can start auditing Docker registries immediately.
 Basic Scan
 Bash
 
-python3 registry_guard.py -d registry.example.com
+    python3 registry_guard.py -d registry.example.com
 
 
 Disclaimer
